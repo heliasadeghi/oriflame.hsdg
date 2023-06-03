@@ -1,0 +1,19 @@
+{
+  "name": "porozhe5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ -r --output-style=compressed",
+    "2xl": "node-sass -w  scss/2xl  -o css/2xl  -r  --output-style=compressed",
+    "xl": "node-sass -w  scss/xl  -o css/xl  -r  --output-style=compressed",
+    "L": "node-sass -w  scss/L -o css/L -r  --output-style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "swiper": "^8.4.5"
+  }
+}

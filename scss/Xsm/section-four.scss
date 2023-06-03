@@ -1,0 +1,187 @@
+div.section-four {
+  height: 725px;
+margin-top: 20px;
+  direction: ltr;
+  display: flex;
+  flex-flow: column wrap;
+  // justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  > div:nth-of-type(1) {
+    width: 96%;
+    height: 353px;
+    position: absolute;
+    display: flex;
+
+    > img {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+    }
+  }
+  > div:nth-of-type(2) {
+    position: absolute;
+
+    width: 96%;
+    height: 358px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 9px;
+    bottom: 0;
+    > a {
+      text-decoration: none;
+      width: 47%;
+      // height: inherit;
+      height: 400px;
+      // margin-top: 0;
+      > div {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 272px;
+        transition: 400ms;
+        position: relative;
+        // &:hover {
+        //   > img.hover-img {
+        //     display: block;
+        //   }
+        // }
+        > img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          border-radius: 6px;
+        }
+        > div.bag {
+          all: unset;
+          text-align: center;
+          color: white;
+          box-sizing: border-box;
+          padding: 0px 10px;
+          position: absolute;
+          bottom: 20px;
+          right: 20px;
+          width: 45px;
+          height: 45px;
+          text-transform: capitalize;
+          text-decoration: none;
+          background-color: #ffffff;
+          border-radius: 50%;
+          box-shadow: 2px 4px 5px #828282;
+
+          > svg {
+            position: absolute;
+            top: 9px;
+            left: 10px;
+            width: 27px;
+            height: 27px;
+            fill: rgb(0, 0, 0) !important;
+            > path {
+              fill: rgb(0, 0, 0) !important;
+            }
+          }
+        }
+        > button.right-right {
+          all: unset;
+          text-align: center;
+          color: rgb(236, 236, 236);
+          box-sizing: border-box;
+          padding: 0px 10px;
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          width: 45px;
+          height: 45px;
+          font-family: fontthree;
+          font-weight: 700;
+          font-size: 14px;
+          text-transform: capitalize;
+          text-decoration: none;
+          background-color: #685bc7;
+          border-radius: 50%;
+          text-align: center;
+          > svg {
+            position: absolute;
+            left: 8px;
+            top: 8px;
+            fill: rgb(255, 255, 255) !important;
+            > path {
+              fill: rgb(255, 255, 255) !important;
+            }
+          }
+        }
+      }
+      > div.last-setion-two {
+        width: 100%;
+        height: 70px;
+        direction: ltr;
+        padding: 5px 0px 0px 2px;
+        box-sizing: border-box;
+        > span {
+          text-transform: uppercase;
+          word-spacing: 0px;
+          letter-spacing: 0px;
+          width: 100%;
+          height: 50px;
+          padding: 10px 0px;
+          box-sizing: border-box;
+          margin: 5px 0px;
+          font-family: fontthree;
+          font-size: 12px;
+          font-weight: 400;
+          color: #b0b0b0;
+          box-sizing: border-box;
+        }
+        > p {
+          height: 40px;
+          text-transform: capitalize;
+          font-size: 13px;
+          line-height: 22px;
+          font-family: fontthree;
+          cursor: pointer;
+          box-sizing: border-box;
+          margin-top: 10px !important;
+          color: #6e6e6e;
+          padding: 5px 0px;
+          box-sizing: border-box;
+          margin: 0;
+        }
+        > div {
+          width: 100%;
+          height: 21px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: start;
+          direction: ltr;
+
+          > div {
+            color: #575757;
+            margin: 0;
+            margin-right: 7px;
+            font-size: 16px;
+            font-family: fontthree;
+            font-weight: 700;
+          }
+          > div.last {
+            font-weight: 500;
+            color: #c1c1c1;
+            text-decoration: line-through;
+          }
+        }
+        > div.monye {
+          box-sizing: border-box;
+          margin-top: 25px;
+        }
+        > div.ball {
+          display: inline-block;
+          width: 14px;
+          height: 14px;
+          border-radius: 50%;
+          background-color: #210f0f;
+          margin: 5px 0px 5px 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+     > i {
+            width: 68px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            font-size: 18 px;
+            margin: 0;
+            color: #777;
+            cursor: pointer;
+          }
+          > p {
+            direction: ltr;
+            width: 100px;
+            justify-content: flex-start;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            font-size: 17px;
+            font-weight: 500;
+            margin: 0;
+            color: #000000;
+            font-family: fonttwo;
+            cursor: pointer;
+            &:hover {
+              color: #555555;
+            }
+          }

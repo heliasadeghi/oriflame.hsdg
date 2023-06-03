@@ -1,0 +1,73 @@
+div.section-six {
+  background-color: #f0effc;
+  height: 283px;
+  box-sizing: border-box;
+  padding: 50px 30px 30px 30px;
+  > div.section-six-top {
+    width: 80%;
+    height: 115px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    column-gap: 20px;
+    > div.into-six {
+      width: 28.6%;
+      height: inherit;
+      display: flex;
+      flex-flow: column wrap;
+      > img {
+        width: 40px;
+        color: #555;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-top: -5px;
+      }
+      > span {
+        // margin-top: 10px;
+        display: block;
+        text-align: center;
+        height: 32px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: fontthree;
+        text-transform: capitalize;
+        color: #555;
+        box-sizing: border-box;
+        margin-bottom: 0px;
+      }
+      > p {
+        height: 28px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        font-family: fontthree;
+        font-size: 14px;
+        font-weight: 400;
+        color: #555;
+        text-align: center;
+        margin-bottom: 0px;
+      }
+    }
+  }
+  > div.section-six-bottom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100px;
+    border-radius: 25px;
+    padding: 27px 0px 0px 0px;
+    box-sizing: border-box;
+    > button {
+      border-radius: 25px;
+      font-size: 14px;
+      font-family: fontthree;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -1;
+      background-color: #f0effc;
+      padding: 12px 23px;
+      border: 1px solid rgb(51, 51, 51);
+    }
+  }
+}

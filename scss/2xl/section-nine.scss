@@ -1,0 +1,44 @@
+div.section-nine {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 49.4px;
+    margin-bottom: 10px;
+    font-family: fontthree;
+      color: rgb(51, 51, 51);
+  }
+  > h4 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    width: 600px;
+    height: 84px;
+    text-align: center;
+    font-family: fontthree;
+    margin-bottom: 20px;
+    > p {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 21px;
+      text-align: center;
+      font-family: fontthree;
+      color: rgb(51, 51, 51);
+    }
+  }
+  > div {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+    justify-content: center;
+    > img {
+      width: 162px;
+      height: 162px;
+      display: inline-block;
+    }
+  }
+}

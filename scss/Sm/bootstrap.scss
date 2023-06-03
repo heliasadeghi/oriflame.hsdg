@@ -1,0 +1,23 @@
+@for $i from 1 through 12 {
+  .col-sm-#{$i} {
+    width: 10% * $i;
+    height: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+  }
+  .col-little-sm-#{$i} {
+    width: 10.4% * $i;
+    height: auto;
+  }
+  .hidden-s {
+    display: none;
+  }
+}
+.hidden-s {
+  display: none;
+}
+.hide-s {
+  display: none;
+}

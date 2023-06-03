@@ -1,0 +1,31 @@
+*{
+padding: 0;
+margin: 0;
+}
+@font-face {
+    font-family: fonttwo;
+    src: url(./font/fonttwo/Epidemic.eot);
+    src: url(../font/fonttwo/Epidemic.woff);
+    src: url(../font/fonttwo/Epidemic.woff2);
+    src: url(../font/fonttwo/Epidemic.ttf);
+}
+@font-face {
+    font-family: fontthree;
+    src: url(../font/fontthree/Sono-Light.eot);
+    src: url(../font/fontthree/Sono-Light.woff);
+    src: url(../font/fontthree/Sono-Light.woff2);
+    src: url(../font/fontthree/Sono-Light.ttf);
+}
+@font-face {
+    font-family: fontfour;
+    src: url(../font/fontthree/Sono-Medium.eot);
+    src: url(../font/fontthree/Sono-Medium.woff);
+    src: url(../font/fontthree/Sono-Medium.woff2);
+    src: url(../font/fontthree/Sono-Medium.ttf);
+}
+@import"./2xl/";
+@import"./xl/";
+@import"./L/";
+@import"./Mdd/";
+@import"./Sm/";
+@import"./Xsm/";

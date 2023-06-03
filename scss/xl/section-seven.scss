@@ -1,0 +1,31 @@
+div.section-seven{
+height: 190px;
+width: 600px;
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+margin: auto;
+// background-color: cadetblue;
+margin-bottom: 100px;
+>p{
+font-size: 40px;
+font-weight: bold;
+font-family: fontthree;
+color: rgb(51, 51, 51);
+line-height: 49.4px;
+
+}
+>h3{
+margin-top: 20px;
+font-size: 14px;
+color: rgb(51, 51, 51);
+font-family: fontthree;
+font-weight: 700;
+text-align: center;}
+>div{
+margin-top: 30px;
+box-sizing: border-box;
+width: 86px;
+border: 2px solid #80CDD0;
+border-radius: 5px;}
+}

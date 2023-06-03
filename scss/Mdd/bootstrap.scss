@@ -1,0 +1,22 @@
+@for $i from 1 through 12 {
+  .col-l-#{$i} {
+    width: 10% * $i;
+    height: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+  }
+  .col-little-l-#{$i} {
+    width: 10.4% * $i;
+    height: auto;
+  }
+  .hidden-m {
+    display: none;
+  }
+}
+.hidden-m {
+  display: none;
+}
+.hide-m{
+display: none;}
